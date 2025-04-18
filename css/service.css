@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.top {
+  background-image: url("../img/service.png");
+  background-size: cover;
+  background-position: center top;
+}
+.service-tab {
+  max-width: 1290px;
+  width: 89.6%;
+  margin: 6.9% auto 0;
+}
+.service-tab__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.service-tab__list__item {
+  width: 410px;
+  background: rgba(79, 192, 69, 0.2);
+  border-radius: 100px 100px 0px 0px;
+  padding: 20px;
+}
+.service-tab__list__item.__now {
+  background-color: #4FC045;
+}
+.service-tab__list__item a {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #4FC045;
+}
+.service-tab__list__item.__now a {
+  color: #fff;
+}
+.service-tab__sub__list {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.service-tab__sub__list a {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.treat1-wrap .ttl {
+  font-size: 2.5rem;
+}
+.treat1 {
+  background-color: #4FC045;
+  color: #fff;
+}
+.treat1-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.treat1-wrap__con__txt {
+  width: 475px;
+}
+.treat1-wrap__con__txt p {
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+.treat1-wrap__con__txt__ttl {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+.treat1-wrap__image {
+  width: 570px;
+}
+.treat1-wrap__detail__ttl {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.treat2 {
+  background: rgba(121, 203, 217, 0.8);
+  border-top: 10px dashed #FFFFFF;
+  color: #fff;
+}
+.treat2-wrap .ttl {
+  font-size: 2.5rem;
+}
+.treat2-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 60px;
+}
+.treat2-wrap__con__txt {
+  width: 475px;
+}
+.treat2-wrap__con__txt p {
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+}
+.treat2-wrap__con__txt__ttl {
+  font-size: 2.25rem;
+  margin-bottom: 30px;
+}
+.treat2-wrap__image {
+  width: 570px;
+}
+.treat2-wrap__detail__ttl {
+  font-size: 2.25rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+

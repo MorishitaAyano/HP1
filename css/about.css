@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.top {
+  background-image: url("../img/about.png");
+  background-size: cover;
+  background-position: center top;
+}
+.breadcrumb {
+  margin-bottom: 6.9%;
+}
+.greet {
+  background-color: #4FC045;
+}
+.greet-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.greet .ttl {
+  color: #fff;
+  text-align: start;
+}
+.greet-wrap__left {
+  width: 43.2%;
+}
+.greet-wrap__left__txt {
+  color: #fff;
+  line-height: 1.8;
+  letter-spacing: 0.1rem;
+  margin-top: 12.2%;
+}
+.greet-wrap__right {
+  width: 50%;
+}
+.fea-wrap__con {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 130px;
+}
+.fea-wrap__con__block__ttl {
+  font-size: 2.25rem;
+  margin-bottom: 6.9%;
+}
+.fea-wrap__con__block__ttl span {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: #FFC64B;
+  display: inline-block;
+  margin-right: 5.3%;
+}
+.fea-wrap__con__block__txt {
+  line-height: 1.8; 
+  color: #757575;
+  margin-bottom: 5.9%;
+}
+.intro {
+  background-color: #4FC045;
+  color: #fff;
+}
+.intro-wrap__con {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 130px;
+}
+.intro-wrap__con__block p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 5.9%;
+}
+.intro-wrap__con__block__image {
+  box-shadow: 0px 0px 5px 20px rgba(255, 255, 255, 0.6);
+}
+.flow {
+  background: rgba(121, 203, 217, 0.8);
+  color: #fff;
+}
+.flow-wrap__con__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5.3%;
+}
+.flow-wrap__con__block.__reverse {
+  flex-direction: row-reverse;
+}
+.flow-wrap__con__block__txt {
+  width: 46.1%;
+}
+.flow-wrap__con__block__txt__ttl {
+  font-size: 2.25rem;
+  margin-bottom: 9.9%;
+}
+.flow-wrap__con__block__txt__ttl span {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  color: #FFC64B;
+  display: inline-block;
+  margin-right: 5.2%;
+}
+.flow-wrap__con__block__txt p {
+  line-height: 1.8; 
+  letter-spacing: 0.1rem;
+  color: #757575;
+}
+.flow-wrap__con__block__image {
+  width: 48.6%;
+}
+.flow-wrap__con__triangle {
+  width: 0px;
+  margin: 0 auto 60px;
+  border-top: 60px solid #FFC64B;
+  border-left: 102px solid transparent;
+  border-right: 102px solid transparent;
+}
