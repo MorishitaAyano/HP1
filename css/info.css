@@ -88,6 +88,7 @@
 .info-wrap__res__block__web p {
   font-size: 1.75rem;
   font-weight: bold;
+  margin-top: 9%
 }
 .info-wrap__res__block__tel {
   width: 200px;
@@ -102,6 +103,7 @@
 .info-wrap__res__block__tel p {
   font-size: 1.6rem;
   font-weight: bold;
+  margin-top: 6%
 }
 .access {
   background: rgba(121, 203, 217, 0.8);
@@ -129,7 +131,7 @@
   transparent 20px) 1;
 }
 .access-wrap__con__left__txt  p:nth-of-type(1) {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   letter-spacing: 0.2rem;
 }

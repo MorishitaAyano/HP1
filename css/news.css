@@ -10,7 +10,6 @@
 .news-wrap__list__item  {
   display: flex;
   gap: 40px;
-  font-size: 1.5rem;
   padding: 19px 0;
   border-bottom: 1px dashed transparent;
   border-image: repeating-linear-gradient(to right,
@@ -18,6 +17,10 @@
   #757575 10px,
   transparent 10px,
   transparent 20px) 1;
+}
+.news-wrap__list__item span,
+.news-wrap__list__item p {
+  font-size: 1.25rem;
 }
 .news-wrap__num {
   margin-top: 60px;
