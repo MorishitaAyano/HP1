@@ -144,6 +144,7 @@
 .service-wrap__con__list {
   width: 69.8%;
   margin: 0 auto;
+  padding-left: 8.8%;
 }
 .service-wrap__con__list li {
   font-size: 1.25rem;
@@ -151,7 +152,10 @@
 }
 .service-wrap__con__item .btn {
   margin: 0 auto;
-  font-size: 1.4rem;
+  width: 250px;
+}
+.service-wrap__con__item .btn a {
+  font-size: 1.3rem;
 }
 .greet {
   background-color: #4FC045;
