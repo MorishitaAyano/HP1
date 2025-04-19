@@ -19,7 +19,6 @@
   width: 410px;
   background: rgba(79, 192, 69, 0.2);
   border-radius: 100px 100px 0px 0px;
-  padding: 20px;
 }
 .service-tab__list__item.__now {
   background-color: #4FC045;
@@ -28,19 +27,29 @@
   font-size: 2.5rem;
   font-weight: bold;
   color: #4FC045;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
 }
 .service-tab__list__item.__now a {
   color: #fff;
 }
 .service-tab__sub__list {
-  margin-top: 40px;
   display: flex;
-  justify-content: center;
   gap: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.service-tab__sub__list__item {
+  width: 100%;
 }
 .service-tab__sub__list a {
   font-size: 1.5rem;
   font-weight: 400;
+  display: flex;
+  width: 100%;
 }
 .treat1-wrap .ttl {
   font-size: 2.5rem;
